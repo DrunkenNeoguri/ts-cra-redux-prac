@@ -71,7 +71,7 @@ npm install styled-components
 
 package.json 파일을 열어 의존성(dependencies) 내역들을 확인해보면,
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bed2e9f2-cf30-49c0-b057-b220718bf01a/Untitled.png)
+![README-image-1st](./resource/readme-img-1.jpg)
 
 위와 같이 리스트가 나타나는데, TypeScript의 경우에는 JavaScript 라이브러리가 TypeScript로 번역해주는, 즉 컴파일해주는 `@types` 라이브러리가 필요한데 현재 styled-components에는 의존성에 과련 패키지가 존재하지 않는다.
 
@@ -92,7 +92,7 @@ npm show (라이브러리 혹은 프레임워크 패키지명) version
 
 여기서는 `@types/styled-components`의 버전을 확인했으며 확인 후 아래와 같이 의존성에 추가했다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5aa372b3-e43f-4867-b27b-7a6ad3e7b9d9/Untitled.png)
+![README-image-2nd](./resource/readme-img-2.jpg)
 
 이제 다시 아까 생성했던 `.tsx` 파일에 `styled` 컴포넌트를 생성해보면 `styled`가 정상적으로 적용되는 것을 볼 수 있다.
 
@@ -250,7 +250,7 @@ useState를 사용할 때, 초기값을 통해 state의 타입을 추론하여 �
 
 이때는 이전에 RootState의 타입 정의를 확인하려고 거슬러 올라가듯 해당 함수 또한 그런 방식으로 타입을 거슬러 올라가 확인하면 된다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52d638c8-be6e-442a-b308-2910a99b15be/Untitled.png)
+![README-image-3rd](./resource/readme-img-3.jpg)
 
 위와 같이 setState 함수에 마우스를 올리면 관련 정보를 볼 수 있는데 이렇게 타입의 정보를 알 수도 있으므로 이 방법을 적극 활용하여 타입 선언에 활용하자.
 
